@@ -302,11 +302,11 @@ Copyright (c) 2018-present, [Evgenii Vedegis](https://github.com/vedees)
 ## smart-grid
 1. Config file `smart-grid-config.js`
 2. Run this file with node 
-```js
+``` js
 node smart-grid-config.js
 ```
 3. Example of usage with `scss`
-```html
+``` html
 .items{
     @include row-flex();
     @include md(justify-content, center);
