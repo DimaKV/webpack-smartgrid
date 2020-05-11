@@ -298,3 +298,24 @@ Example 2: `@include font-face("OpenSans", "../fonts/OpenSans/opensansItalic", 4
 [MIT](./LICENSE)
 
 Copyright (c) 2018-present, [Evgenii Vedegis](https://github.com/vedees)
+
+## smart-grid
+1. Config file `smart-grid-config.js`
+2. Run this file with node 
+```js
+node smart-grid-config.js
+```
+3. Example of usage with `scss`
+```html
+.items{
+    @include row-flex();
+    @include md(justify-content, center);
+ 
+    .item{
+        @include col();
+        @include size(3);
+        @include size-md(5);
+        @include size-xs(10);
+    }
+}
+```
